@@ -7,7 +7,9 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Service Backend is running asik banget");
+    res.send("Service Backend is running asik banget wow");
+
+    console.log("Backend is running");
 });
 
 app.listen(PORT, () => {
